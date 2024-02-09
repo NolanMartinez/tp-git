@@ -235,6 +235,9 @@ git commit -m "Ajout fichier5.md"
 Entrer la commande git log --oneline --decorate --graph --all pour visualiser, sur le terminal, le graphe des commits sur toutes les branches
 
 Noter la « déviation » entre les deux branches, à partir de la branche master (schématisée sous forme de traits)
+
+La branche fonctionnalite 1 se sépare de la branche master ainsi que la branche fonctionnalité 2 tout étant chacune lié toujours à la branche master
+
 l'option --all permet de visualiser toutes les branches, pas seulement celle sur laquelle on est
 l'option --oneline affiche les commits sur une seule ligne
 l'option --graph affiche le log sous forme de graphe
@@ -242,4 +245,78 @@ l'option --graph affiche le log sous forme de graphe
 Installer l'extension VS Code Git Graph et visualiser le graphe actuel des commits à l'aide de cette extension
 
 Sur cette représentation, que représente les points ?
+
+Les points représente tout les commit réaliser
+
 Comment voit-on sur quelle branche on est actuellement ?
+
+la branche ou il y'a un cercle sans fond
+
+Partie 3
+
+se déplacer sur la branche master
+
+git checkout master
+
+Noter le changement dans l'onglet Git Graph
+
+Il nous indique que nous nous situons sur la branche master
+
+On va maintenant intégrer la branche fonctionnalite1, qui est terminée, dans la branche d'intégration (ça s'appelle une fusion, ou un merge) : fusionner avec la branche fonctionnalite1
+
+git merge fonctionnalite1
+
+Noter le changement dans l'onglet Git Graph. Que signifie la mention Fast-forward indiquée par la sortie de la commande ?
+
+La branche fonctionnalite1 a désormer fusionnée avec la branche master. 
+Fast - forward veux dire que git déplace seulement la pointe de la branche actuelle vers celle ciblée
+
+On veut maintenant fusionner fonctionnalite2 dans la branche d'intégration (master). Effectuer cette fusion
+
+git merge fonctionnalite2
+
+Noter le changement dans l'onglet Git Graph. Que signifie la mention Merge made by the ... strategy indiquée par la sortie de la commande ?
+
+La branche master se situe dorénavant tout en haut de l'arbre 
+
+made by the ort strategy est la stratégie par défaut sur git pour fusionner deux branches
+
+Quelle est la différence fondamentale avec la fusion précédente ?
+
+La branche fonctionnalité2 reste séparé de master ce qui n'était pas le cas pour fonctionnalité1
+
+Comment utiliser Git Graph pour qu'il nous montre les différences entre l'ancienne version de fichier1.md et la version courante que l'on vient de committer ?
+
+On clique sur le fichier en question dans git graph et on vois les modifications
+
+Repartir sur master, et modifier fichier1.md en y ajoutant aussi une ligne (différente de celle qu'on a ajoutée sur l'autre branche) ; ajouter à l'index et commit
+
+Tenter de fusionner la branche fonctionnalite3 avec master
+
+git merge fonctionnalite3
+
+Que se passe-t-il et pourquoi ?
+
+Auto-merging fichier1.md.txt
+CONFLICT (content): Merge conflict in fichier1.md.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Il ne peux pas fusionner car il y'a plusieurs versions du fichier1.md donc ils entrent en conflit 
+
+Que doit-on faire si on veut annuler la fusion en cours ? (ne pas lancer la commande)
+
+il faut utiliser git merge --abort
+
+Supprimer les trois branches fonctionnalitex (attention : on ne peut pas supprimer une branche sur laquelle on est)
+
+git branch -d fonctionnalitex
+
+Partie 4
+
+Quelle est la différence entre un fork et un clonage ?
+
+le clonage permet d'avoir les fichier directement sur son ordinateur
+
+Si on a pas accès a internet on préferais utiliser le clonage que le fork 
+
+

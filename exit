@@ -1,0 +1,86 @@
+[33mcommit c9c215a29a943b41428c22ebe1d5482c173ef29c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Merge: b7252de 3c7085c
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Feb 9 09:12:36 2024 +0100
+
+    Merge branch 'fonctionnalite3'
+
+[33mcommit b7252de4feaeb80636a0f171bbeaf3a7dd1d07fd[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Feb 9 09:02:46 2024 +0100
+
+     with '#' will be ignored, and an empty message aborts the commit.
+    :
+
+[33mcommit 3c7085c68bed0fe526a3b64fd155405b53d41fd2[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Feb 9 08:57:27 2024 +0100
+
+     Modification fichier1 pour fonctionnalité 3
+
+[33mcommit d8df1a8ec6cfd993855e837d18590fbaa7b27c7c[m
+Merge: 9234a47 7c127a0
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Feb 9 08:45:26 2024 +0100
+
+    Merge branch 'fonctionnalite2'
+
+[33mcommit 7c127a03aa3945a559cb2d7ec8ced1da530a372b[m[33m ([m[1;31morigin/fonctionnalite2[m[33m)[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 10:25:28 2024 +0100
+
+    reponses
+
+[33mcommit 5f0deab709009eba9b5885d0fc3df5414626d1a7[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 10:07:59 2024 +0100
+
+    reponses
+
+[33mcommit 4fa55131b1e07d38b08188e81f15819e2c998f2c[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 10:06:39 2024 +0100
+
+    tp git
+
+[33mcommit c5987b4b174da09f2049e551d66d72026483624a[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:59:41 2024 +0100
+
+    Ajout fichier5.md
+
+[33mcommit 9234a471b23fc369da247ec9c43bf8e1cc166588[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:48:04 2024 +0100
+
+    Validé
+
+[33mcommit e9561761b35ea96843723939f3b54e1136ff1cdb[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:41:02 2024 +0100
+
+     fonctionnalite1 - premiere phrase
+
+[33mcommit 830e2e0d0462489fc56218ae0ffcb6555b6362c0[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:35:53 2024 +0100
+
+    Fonctionnalité 1 - terminée
+
+[33mcommit a093c7d37562c7b69a6155eed14f4a94be224735[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:33:20 2024 +0100
+
+    Fonctionnalité1 - première phase
+
+[33mcommit ca8a795de0681588e3b2a390185c9737808bd655[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:10:38 2024 +0100
+
+    ajout de fichier2.md et modification de fichier1.md
+
+[33mcommit 62885412d6cfceb1fc76445c30271184c1feea42[m
+Author: NolanMartinez <nolanmartinez67@gmail.com>
+Date:   Fri Jan 26 09:06:34 2024 +0100
+
+    ajout de fichier1.md
